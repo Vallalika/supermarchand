@@ -20,7 +20,7 @@ const Item = ({weapon}) => {
 
     const handleClick = () => {
         const temp = {...user}
-        temp.basket.push(weapon)
+        temp.basket.push(weapon.name)
         setUser(temp)
     }
 
