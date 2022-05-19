@@ -62,6 +62,10 @@ const MainContainer = () => {
         {
             name: 'Nzappa Zap',
             image: weaponImage
+        },
+        {
+            name: 'War Scythe',
+            image: weaponImage
         }
     ]
 
